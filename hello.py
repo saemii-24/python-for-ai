@@ -38,9 +38,9 @@ class Bird(Animal):
         super().__init__(species, age)
         self.can_fly = can_fly
     
-    # def info(self):
-    #     fly_status = "can fly" if self.can_fly else "cannot fly"
-    #     return f"{super().info()}, {fly_status}"
+    def info(self):
+        fly_status = "can fly" if self.can_fly else "cannot fly"
+        return f"{super().info()}, {fly_status}"
 
 parrot = Bird("Parrot", 2, True)
 print(parrot.info())
