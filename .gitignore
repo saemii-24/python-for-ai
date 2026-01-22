@@ -23,3 +23,8 @@ dist/
 
 # env files
 .env
+
+raw_data
+output
+/outputs
+/output
